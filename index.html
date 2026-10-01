@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ليلة في الحديقة ✦</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<audio id="song" loop preload="auto" src="song.mp3"></audio>
+<div id="zoom">
+<canvas id="c"></canvas>
+<svg id="scene" viewBox="0 0 380 240" preserveAspectRatio="xMidYMax slice">
+<ellipse cx="190" cy="235" rx="260" ry="55" fill="#141a33"/>
+<ellipse cx="60" cy="225" rx="40" ry="14" fill="#1b2340"/>
+<ellipse cx="300" cy="228" rx="46" ry="12" fill="#1b2340"/>
+<g class="canopy">
+<ellipse cx="300" cy="95" rx="60" ry="46" fill="#111630"/>
+<ellipse cx="260" cy="115" rx="38" ry="30" fill="#111630"/>
+</g>
+<rect x="294" y="130" width="12" height="80" fill="#111630"/>
+<g fill="#0c1026">
+<path d="M170 236 q-9 -20 -24 -22 q-11 -1 -16 9 q5 4 5 11 l2 13 q15 3 31 0 q4 -5 2 -11z"/>
+<circle cx="148" cy="206" r="8.5"/>
+<path d="M179 236 q9 -20 24 -22 q11 -1 16 9 q-5 4 -5 11 l-2 13 q-15 3 -31 0 q-4 -5 -2 -11z"/>
+<circle cx="201" cy="206" r="8.5"/>
+</g>
+</svg>
+</div>
+<div id="line"></div>
+<div id="hint">المس الشاشة عشان نقرب</div>
+<button id="mute">🔊</button>
+<div id="intro">
+  <h1>ليلة في الحديقة ✦</h1>
+  <p>بالليل... بين النجوم... وانتي جنبي</p>
+  <button id="start">ابدأ</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
